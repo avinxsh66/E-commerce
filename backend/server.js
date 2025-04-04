@@ -15,7 +15,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ credentials: true, origin: "https://e-commerce-backend-tbvg.onrender.com" }));
+app.use(cors({ credentials: true, origin: "https://e-commerce-client-gvay.onrender.com" }));
 
 // Routes
 app.use("/api/auth", authRoutes);
