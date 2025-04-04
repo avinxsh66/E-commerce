@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://e-commerce-backend-tbvg.onrender.com/api/auth/register",
         { email, password },
         { withCredentials: true } // 🔥 Ensures cookies are stored
       );
