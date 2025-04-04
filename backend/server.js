@@ -15,7 +15,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: "https://e-commerce-backend-tbvg.onrender.com" }));
 
 // Routes
 app.use("/api/auth", authRoutes);
